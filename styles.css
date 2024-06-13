@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.queue-container {
+    margin-bottom: 20px;
+    background-color: #333;
+}
+
+.queue {
+    display: flex;
+    border: 2px solid #333;
+    padding: 10px;
+    min-width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.queue-element {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
